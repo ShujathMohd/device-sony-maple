@@ -62,7 +62,7 @@
         <resource name="shutdown" type="halt" delay="5" />
 	    
 	<!-- display backlight -->
-        <resource name="disp-bl" type="sysfs">/sys/class/leds/lcd-backlight/max_brightness</resource>
+        <resource name="disp-bl" type="sysfs">/sys/class/backlight/panel0-backlight/max_brightness</resource>
 
         <!-- CPU temperature -->
         <resource name="cluster-0-temp" type="union">
